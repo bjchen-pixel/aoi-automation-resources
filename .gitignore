@@ -40,10 +40,16 @@ ENV/
 *.swp
 *.swo
 
-# 保留重要文件
-!*.md
-!*.ps1
-!*.sh
-!*.py
-!*.html
-!*.csv
+# 排除校正報告相關文件
+校正報告*
+*校正報告*
+calibration*
+*calibration*
+
+# 保留重要的 Skills 文件
+!AOI專案_Skills推薦清單.md
+!Skills.sh_完整指南.md
+!README.md
+!GITHUB_推送指南.md
+!install-aoi-skills.ps1
+!install-aoi-skills.sh
