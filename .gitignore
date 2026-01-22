@@ -1,0 +1,49 @@
+# 排除大文件
+*.exe
+*.msi
+*.dmg
+*.pkg
+
+# 排除 Excel 生成的臨時文件
+~$*.xlsx
+~$*.xls
+*.tmp
+
+# 排除系統文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 排除備份文件
+*.backup
+*_backup.*
+*_複製.*
+
+# 排除 HTML 生成的附加文件夾
+*.files/
+
+# 排除 Python 編譯文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# 排除虛擬環境
+venv/
+env/
+ENV/
+
+# 排除 IDE 設定
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 保留重要文件
+!*.md
+!*.ps1
+!*.sh
+!*.py
+!*.html
+!*.csv
